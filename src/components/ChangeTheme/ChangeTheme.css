@@ -1,0 +1,24 @@
+.changeTheme {
+  height: 100%;
+  font-size: 3rem;
+  z-index: 99;
+  /* background-color: pink; */
+  margin-top: -4px;
+}
+
+.changeTheme button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  /* padding: 20px; */
+  /* background-color: blueviolet; */
+}
+
+@media screen and (max-width: 800px) {
+  .changeTheme {
+    right: -10px;
+    bottom: 90px;
+    font-size: 2.3rem;
+  }
+}
